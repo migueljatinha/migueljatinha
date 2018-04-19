@@ -42,12 +42,12 @@
       font-size: 3rem;
     }
     h2 {
-      font-family: 'Anton', sans-serif;
+      font-family: 'Caveat', cursive;
       font-size: 2.5rem;
     }
     h3 {
       font-family: 'Caveat', cursive;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     p {
       font-family: 'Open Sans Condensed', sans-serif;
@@ -58,15 +58,19 @@
       font-size: .8rem;
     }
     .vh-100 {
-      height: 100vh;
+      min-height: 100vh;
     }
     .vh-50 {
-      height: 50vh;
+      min-height: 50vh;
     }
     .perfil {
       height: 10vh;
       width: 10vh;
     }
+    .work {
+      width: 100%;
+    }
+    .work img { width: 100%; }
   </style>
 
 </head>
@@ -76,42 +80,116 @@
     <!-- Content here -->
     <div class="row">
 
-      <div class="w-25 bg-warning vh-100 p-2">
+      <div class="col-12 col-md-4 bg-warning vh-100 p-3">
 
         <div class="d-flex justify-content-center">
           <img src="images/perfil.jpg" alt="Foto de Perfil - Miguel Alves" class="rounded-circle perfil border border-light m-3">
         </div>
 
         <h1 class="text-center">Michael Alves</h1>
-        <small>Bio</small>
+
+        <h3>Sobre</h3>
         <p>Estudante por toda a vida. Tenho como principais objetos de estudo a matemática e informática, principalmente programação e internet.</p>
 
         <h3>Contato</h3>
-
         <p>
           E-mail: migueljatinha@gmail.com<br>
           Telefone: (11) 96339-96777
         </p>
 
+        <h3>Redes Sociais</h3>
+        <p>
+          <a href="//www.skoob.com.br/usuario/5264373" target="_blank" title="Skoob"><img width="16" src="//skoob.com.br/favicon.ico"></a>
+          <a href="//www.facebook.com/migueljatinha" target="_blank" title="Facebook"><img width="16" src="//facebook.com/favicon.ico"></a>
+          <a href="//twitter.com/migueljatinha" target="_blank" title="Twitter"><img width="16" src="//twitter.com/favicon.ico"></a>
+          <a href="//www.instagram.com/migueljatinha" target="_blank" title="Instagram"><img width="16" src="//www.instagram.com/favicon.ico"></a>
+        </p>
+
       </div>
 
-      <div class="w-75 bg-dark mh-100 py-2 px-5">
+      <div class="col-12 col-md-8 bg-dark vh-100 py-3 px-3">
 
-        <h3 class="py-3">Projetos</h3>
+        <h2 class="py-3">Projetos</h2>
 
-        <div class="card" style="width: 30vw;">
-          <img class="card-img-top" src="images/site-science.png" width="100" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Science Timeline</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="row">
+
+
+
+
+
+
+          <div class="col-12 col-md-4 work p-3">
+            <h3>Science Timeline</h3>
+            <a href="//sciencetimeline.info" target="_blank" title="Science Timeline site">
+              <img src="images/site-science.png" class="" alt="Science Timeline site"/>
+            </a>
+            <p>
+              Projeto pessoal desenvolvido em Laravel 5.6 e Vue com banco de dados MySQL<br>
+              <span>Ano:</span> 2018.
+            </p>
           </div>
+
+          <div class="col-12 col-md-4 work p-3">
+            <h3>Vou de Marisa</h3>
+            <img src="images/site-marisa.png" class="" alt="Vou de Marisa site"/>
+            <p>
+              Projeto desenvolvido em Wordpress<br>
+              <span>Ano:</span> 2015.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 work p-3">
+            <h3>Daniel Melim</h3>
+            <a href="//melim.art.br" target="_blank" title="Daniel Melim site">
+              <img src="images/site-melim.png" class="" alt="Daniel Melim site"/>
+            </a>
+            <p>
+              Site Laravel + Mysql<br>
+              <span>Ano:</span> 2018.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 work p-3">
+            <h3>Lego Brasil</h3>
+            <a href="//legobrasil.art.br" target="_blank" title="Lego Brasil site">
+              <img src="images/site-lego.png" class="" alt="Lego Brasil site"/>
+            </a>
+            <p>
+              VTex<br>
+              <span>Ano:</span> 2014.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 work p-3">
+            <h3>Ana Maria Braga</h3>
+            <a href="//anamariabraga.globo.com" target="_blank" title="Ana Maria Braga site">
+              <img src="images/site-anamaria.png" class="" alt="Ana Maria Braga site"/>
+            </a>
+            <p>
+              HTML + CSS<br>
+              <span>Ano:</span> 2017.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4 work p-3">
+            <h3>DPZ & T</h3>
+            <a href="//dpzt.com.br/" target="_blank" title="DPZ&T site">
+              <img src="images/site-dpzt.png" class="" alt="DPZ&T site"/>
+            </a>
+            <p>
+              Site Laravel + Mysql<br>
+              <span>Ano:</span> 2016.
+            </p>
+          </div>
+
+
+
+
+
+
+
+
         </div>
-
-        <h3 class="py-3">Conhecimentos Técnicos</h3>
-
-      </div>
-
-      <div class="footer">
 
       </div>
 
